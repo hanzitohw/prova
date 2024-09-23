@@ -1,0 +1,130 @@
+body {
+    background-image: url('./imagem/imagem\ queimada.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 300vh; 
+    margin: 0;
+}
+
+.content {
+    text-align: center;
+    color: rgb(240, 228, 228);
+    margin-top: 20%;
+}
+
+h1, p {
+    background-color: rgba(184, 43, 43, 0.5);
+    padding: 0,25px;
+    border-radius: 0,25px;
+} 
+.horizontal-img {
+    width: 65%;
+    height: auto;
+    max-width: none; 
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imagem-img {
+    width: 65%;
+    height: auto;
+    max-width: none; 
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #972e2e;
+    color: #f1e4e4;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #0f0e0e;
+    color: #2b2626;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 2rem;
+    text-align: center;
+}
+
+h1, h2 {
+    color: #faecec;
+}
+
+footer {
+    background-color: #e5d0d0;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
+.galeria img {
+    width: 30%;
+    margin: 1%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 0 auto;
+}
+
+form input, form textarea {
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 1rem;
+}
+
+form button {
+    padding: 10px;
+    background-color: #f8e1e1;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #e2c7c7;
+}
+
+.botao {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #f44336;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.botao:hover {
+    background-color: #d32f2f;
+}
